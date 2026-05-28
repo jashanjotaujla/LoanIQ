@@ -208,7 +208,7 @@ with st.form("loan_form"):
 
     col8, col9 = st.columns(2)
     with col8:
-        mon_income = st.number_input("Monthly Income ($)", min_value=0, value=5000, step=100)
+        mon_income = st.number_input("Yearly Income ($)", min_value=0, value=5000, step=100)
     with col9:
         co_mon_income = st.number_input("Co-Applicant Income ($)", min_value=0, value=0, step=100)
 
